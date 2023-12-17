@@ -1,14 +1,9 @@
-import React, { ButtonHTMLAttributes, ReactNode, forwardRef } from "react"
+import React, { forwardRef } from "react"
 
 import styles from "./index.module.css"
+import { ButtonWrapperProps } from "@/_components/ui/button/type"
 
-type Props = {
-  variant?: "filled" | "outlined"
-  size?: "small" | "medium" | "large"
-  children: ReactNode
-} & ButtonHTMLAttributes<HTMLButtonElement>
-
-export const ButtonWrapper = forwardRef<HTMLButtonElement, Props>(
+export const ButtonWrapper = forwardRef<HTMLButtonElement, ButtonWrapperProps>(
   ({ variant = "filled", size = "large", ...props }, ref) => {
     return (
       <button className={styles.button} {...props} ref={ref}>

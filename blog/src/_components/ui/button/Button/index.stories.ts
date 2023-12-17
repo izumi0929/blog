@@ -1,24 +1,24 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import { ButtonWrapper as ButtonWrapperComponent } from "."
+import { Button as ButtonComponent } from "."
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta = {
   title: "Components",
-  component: ButtonWrapperComponent,
+  component: ButtonComponent,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
     layout: "centered"
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
   tags: ["autodocs"]
-} satisfies Meta<typeof ButtonWrapperComponent>
+} satisfies Meta<typeof ButtonComponent>
 
 export default meta
 type Story = StoryObj<typeof meta>
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const ButtonWrapper: Story = {
+export const Button: Story = {
   args: {
     children: "Button"
   }
