@@ -1,5 +1,8 @@
 import styles from "./page.module.css"
-
 export default function Home() {
-  return <main className={styles.main}>Hello | こんにちは</main>
+  return (
+    <main className={styles.main}>
+      <h1>Hello | こんにちは</h1>
+    </main>
+  )
 }
