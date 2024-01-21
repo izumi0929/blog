@@ -4,14 +4,9 @@ import matter from "gray-matter"
 import { remark } from "remark"
 import html from "remark-html"
 import { getArticlesDirectory } from "@/lib/getArticlesDirectory"
+import { Article } from "@/_objects/article/types/Article"
 
-type MarkdownData = {
-  slug: string
-  contentHtml: string
-  thumbnail: string
-}
-
-export async function getMarkdownData(slug: string): Promise<MarkdownData> {
+export async function getMarkdownData(slug: string): Promise<Article> {
   const articlesDirectory = getArticlesDirectory()
   const fullPath = path.join(articlesDirectory, `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, "utf8")
@@ -26,6 +21,8 @@ export async function getMarkdownData(slug: string): Promise<MarkdownData> {
     slug,
     contentHtml,
     thumbnail: matterResult.data.thumbnail,
-    ...matterResult.data
+    title: matterResult.data.title,
+    description: matterResult.data.description,
+    date: matterResult.data.date
   }
 }

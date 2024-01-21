@@ -1,6 +1,5 @@
 import { getArticlesDirectory } from "@/lib/getArticlesDirectory"
 import fs from "fs"
-import path from "path"
 
 export const getFilenames = async () => {
   const articlesDirectory = getArticlesDirectory()

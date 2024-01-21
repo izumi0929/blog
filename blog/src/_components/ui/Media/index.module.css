@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgb(var(--background-color-base));
+}
+.wrapper:hover {
+  background-color: rgb(var(--background-color-darker));
+}
+
+.image {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.image > img {
+  border-radius: 8px 0 0 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: rgb(var(--foreground-rgb));
+  padding: 0 16px;
+}
