@@ -1,0 +1,169 @@
+
+/**
+ * Do not edit directly
+ * Generated on Sat, 27 Jan 2024 16:01:56 GMT
+ */
+
+$token-set-order-0: global !default;
+$blue-base: #295bff !default;
+$blue-950: #00071f !default;
+$blue-900: #000e3d !default;
+$blue-800: #001b75 !default;
+$blue-700: #002ab3 !default;
+$blue-600: #0037eb !default;
+$blue-500: #295bff !default;
+$blue-400: #527aff !default;
+$blue-300: #809dff !default;
+$blue-200: #a8bdff !default;
+$blue-100: #d6e0ff !default;
+$blue-50: #ebefff !default;
+$yellow-base: #ffbf0f !default;
+$yellow-950: #1a1300 !default;
+$yellow-900: #382900 !default;
+$yellow-800: #6b4f00 !default;
+$yellow-700: #a37800 !default;
+$yellow-600: #d69d00 !default;
+$yellow-500: #ffbf0f !default;
+$yellow-400: #ffcb3d !default;
+$yellow-300: #ffd970 !default;
+$yellow-200: #ffe59e !default;
+$yellow-100: #fff3d1 !default;
+$yellow-50: #fff8e5 !default;
+$pink-base: #e57a7f !default;
+$pink-950: #1e0607 !default;
+$pink-900: #3c0c0e !default;
+$pink-800: #77171c !default;
+$pink-700: #af2229 !default;
+$pink-600: #d93f46 !default;
+$pink-500: #e57a7f !default;
+$pink-400: #ea9498 !default;
+$pink-300: #efaeb1 !default;
+$pink-200: #f5ccce !default;
+$pink-100: #fae5e6 !default;
+$pink-50: #fcf2f3 !default;
+$purple-base: #363b72 !default;
+$purple-950: #05050a !default;
+$purple-900: #0b0d18 !default;
+$purple-800: #15172d !default;
+$purple-700: #212445 !default;
+$purple-600: #2b2f5a !default;
+$purple-500: #363b72 !default;
+$purple-400: #4b529f !default;
+$purple-300: #757bbd !default;
+$purple-200: #a2a6d3 !default;
+$purple-100: #d2d4ea !default;
+$purple-50: #e7e8f4 !default;
+$cream-base: #e8dacf !default;
+$cream-950: #1f160f !default;
+$cream-900: #3b2a1c !default;
+$cream-800: #755338 !default;
+$cream-700: #b07f5a !default;
+$cream-600: #ccad94 !default;
+$cream-500: #e8dacf !default;
+$cream-400: #ede2d9 !default;
+$cream-300: #f2eae3 !default;
+$cream-200: #f5efea !default;
+$cream-100: #faf7f5 !default;
+$cream-50: #fdfcfc !default;
+$neutral-base: #9a9693 !default;
+$neutral-950: #1f160f !default;
+$neutral-900: #352d27 !default;
+$neutral-800: #4c453f !default;
+$neutral-700: #57504b !default;
+$neutral-600: #79736f !default;
+$neutral-500: #9a9693 !default;
+$neutral-400: #b7b4b2 !default;
+$neutral-300: #c7c5c3 !default;
+$neutral-200: #d9d7d6 !default;
+$neutral-100: #e9e8e7 !default;
+$neutral-50: #f8f8f8 !default;
+
+$css-tokens: (
+  'neutral': (
+    '50': $neutral-50,
+    '100': $neutral-100,
+    '200': $neutral-200,
+    '300': $neutral-300,
+    '400': $neutral-400,
+    '500': $neutral-500,
+    '600': $neutral-600,
+    '700': $neutral-700,
+    '800': $neutral-800,
+    '900': $neutral-900,
+    '950': $neutral-950,
+    'base': $neutral-base
+  ),
+  'cream': (
+    '50': $cream-50,
+    '100': $cream-100,
+    '200': $cream-200,
+    '300': $cream-300,
+    '400': $cream-400,
+    '500': $cream-500,
+    '600': $cream-600,
+    '700': $cream-700,
+    '800': $cream-800,
+    '900': $cream-900,
+    '950': $cream-950,
+    'base': $cream-base
+  ),
+  'purple': (
+    '50': $purple-50,
+    '100': $purple-100,
+    '200': $purple-200,
+    '300': $purple-300,
+    '400': $purple-400,
+    '500': $purple-500,
+    '600': $purple-600,
+    '700': $purple-700,
+    '800': $purple-800,
+    '900': $purple-900,
+    '950': $purple-950,
+    'base': $purple-base
+  ),
+  'pink': (
+    '50': $pink-50,
+    '100': $pink-100,
+    '200': $pink-200,
+    '300': $pink-300,
+    '400': $pink-400,
+    '500': $pink-500,
+    '600': $pink-600,
+    '700': $pink-700,
+    '800': $pink-800,
+    '900': $pink-900,
+    '950': $pink-950,
+    'base': $pink-base
+  ),
+  'yellow': (
+    '50': $yellow-50,
+    '100': $yellow-100,
+    '200': $yellow-200,
+    '300': $yellow-300,
+    '400': $yellow-400,
+    '500': $yellow-500,
+    '600': $yellow-600,
+    '700': $yellow-700,
+    '800': $yellow-800,
+    '900': $yellow-900,
+    '950': $yellow-950,
+    'base': $yellow-base
+  ),
+  'blue': (
+    '50': $blue-50,
+    '100': $blue-100,
+    '200': $blue-200,
+    '300': $blue-300,
+    '400': $blue-400,
+    '500': $blue-500,
+    '600': $blue-600,
+    '700': $blue-700,
+    '800': $blue-800,
+    '900': $blue-900,
+    '950': $blue-950,
+    'base': $blue-base
+  ),
+  'tokenSetOrder': (
+    '0': $token-set-order-0
+  )
+);

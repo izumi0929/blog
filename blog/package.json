@@ -20,7 +20,7 @@
     "remark-html": "^16.0.1"
   },
   "devDependencies": {
-    "style-dictionary": "^3.9.2",
+    "sass": "^1.70.0",
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-interactions": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",
@@ -36,6 +36,8 @@
     "eslint-config-next": "14.0.2",
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.5.3",
+    "style-dictionary": "^3.9.2",
+    "token-transformer": "^0.0.33",
     "typescript": "^5"
   }
 }

@@ -1,5 +1,5 @@
 import { FC } from "react"
-import styles from "./index.module.css"
+import styles from "./index.module.scss"
 import Image from "next/image"
 
 export type Media = {

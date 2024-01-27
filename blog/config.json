@@ -1,13 +1,31 @@
 {
-  "source": ["src/tokens/**/*.json"],
+  "source": ["src/tokens/output.json"],
   "platforms": {
     "scss": {
+      "buildPath": "src/tokens/",
       "transformGroup": "scss",
-      "buildPath": "src/styles/",
       "files": [
         {
-          "destination": "_variables.scss",
-          "format": "scss/variables"
+          "destination": "_tokens.scss",
+          "format": "scss/map-deep",
+          "mapName": "css-tokens",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "ts": {
+      "buildPath": "src/tokens/",
+      "transformGroup": "js",
+      "files": [
+        {
+          "format": "javascript/module",
+          "destination": "tokens.js"
+        },
+        {
+          "format": "typescript/module-declarations",
+          "destination": "tokens.d.ts"
         }
       ]
     }
