@@ -1,13 +1,11 @@
-@use "../../../tokens/tokens" as tokens;
-
 .wrapper {
   display: flex;
   align-items: center;
   border-radius: 8px;
-  background-color: tokens.$cream-100;
+  background-color: $cream-100;
 }
 .wrapper:hover {
-  background-color: tokens.$cream-50;
+  background-color: $cream-50;
 }
 
 .image {

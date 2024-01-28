@@ -8,6 +8,10 @@ const nextConfig = {
         port: ""
       }
     ]
+  },
+  sassOptions: {
+    includePaths: ["./src/tokens"],
+    prependData: `@import "_tokens.scss";`
   }
 }
 
