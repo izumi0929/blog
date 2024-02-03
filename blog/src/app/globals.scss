@@ -46,11 +46,6 @@
     --background-start-rgb: 242, 227, 215;
     --background-end-rgb: 242, 227, 215;
 
-    /* Background Colors */
-    --background-color-lighter: 247, 237, 228;
-    --background-color-base: 242, 227, 215;
-    --background-color-darker: 237, 217, 202;
-
     /* Primary Colors */
     --accent-color-lighter: 243, 157, 161;
     --accent-color-base: 238, 127, 132;
@@ -101,8 +96,8 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-color-lighter));
+  color: $neutral-900;
+  background: $cream-100;
 }
 
 a {

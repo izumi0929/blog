@@ -2,7 +2,7 @@ import { Article } from "@/_objects/article/types/Article"
 import { FC } from "react"
 import styles from "./index.module.scss"
 import Link from "next/link"
-import { Media } from "@/_components/ui/Media"
+import { Media } from "@/_components/ui/media"
 
 type Props = {
   articles: Article[]

@@ -1,5 +1,5 @@
 import { FC } from "react"
-import styles from "./index.module.css"
+import styles from "./index.module.scss"
 
 import { ArticleList } from "@/_objects/article/components/ArticleList"
 import { Article } from "@/_objects/article/types/Article"

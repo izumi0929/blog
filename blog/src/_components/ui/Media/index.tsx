@@ -17,8 +17,8 @@ export const Media: FC<Props> = ({ thumbnail, title, description }) => {
         <Image src={thumbnail} alt={title} layout="fill" />
       </div>
       <div className={styles.content}>
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h2 className={styles.title}>{title}</h2>
+        <p className={styles.description}>{description}</p>
       </div>
     </div>
   )

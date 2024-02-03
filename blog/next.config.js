@@ -10,8 +10,11 @@ const nextConfig = {
     ]
   },
   sassOptions: {
-    includePaths: ["./src/tokens"],
-    prependData: `@import "_tokens.scss";`
+    includePaths: ["./src/tokens", "./src/scss"],
+    prependData: `
+      @import "_tokens.scss";
+      @import "index";
+    `
   }
 }
 
