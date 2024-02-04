@@ -4,8 +4,5 @@
   align-items: center;
   gap: 48px;
   min-height: 100vh;
-  padding: 0 16px;
-  @include mq(sm) {
-    padding: 0 120px;
-  }
+  padding: 32px 16px;
 }
