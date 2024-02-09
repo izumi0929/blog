@@ -1,3 +1,5 @@
+const path = require("path")
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -10,10 +12,10 @@ const nextConfig = {
     ]
   },
   sassOptions: {
-    includePaths: ["./src/tokens", "./src/scss"],
+    includePaths: ["./src/scss", path.join(__dirname, "/src/tokens")],
     prependData: `
-      @import "_tokens.scss";
       @import "index";
+      @import "tokens";
     `
   }
 }
