@@ -1,3 +1,4 @@
+import { ArticleDetailPage } from "@/_pages/ArticleDetailPage"
 import { getFilenames } from "@/lib/getFilenames"
 import { getMarkdownData } from "@/lib/getMarkdownData"
 
@@ -14,12 +15,7 @@ type AriticleParams = {
 const Article = async ({ params }: AriticleParams) => {
   const { id } = params
   const articleData = await getMarkdownData(id)
-  return (
-    <div>
-      <img src={articleData.thumbnail} width={200} />
-      <div dangerouslySetInnerHTML={{ __html: articleData.contentHtml }} />
-    </div>
-  )
+  return <ArticleDetailPage article={articleData} />
 }
 
 export default Article

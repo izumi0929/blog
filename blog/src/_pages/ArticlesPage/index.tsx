@@ -10,7 +10,7 @@ type Props = {
 export const ArticlesPage: FC<Props> = ({ articles }) => {
   return (
     <main className={styles.main}>
-      <h1>Articles</h1>
+      <h1>記事一覧</h1>
       <ArticleList articles={articles} />
     </main>
   )
