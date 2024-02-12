@@ -10,7 +10,13 @@
   font-size: 42px;
   line-height: 52px;
   margin-top: 32px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
+  text-align: start;
+  width: 100%;
+}
+
+.content > time {
+  margin-bottom: 24px;
 }
 
 .content {
@@ -30,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
   object-fit: cover;
 }
 
@@ -38,4 +44,30 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 1.5;
+  margin-top: 24px;
+}
+
+.content p {
+  margin-top: 16px;
+}
+
+.content ul {
+  margin-top: 16px;
+}
+
+.content li {
+  margin-left: 24px;
+}
+
+.content :not(pre) > code {
+  background-color: $neutral-100;
+  color: $blue-900;
+  padding: 0 4px;
+  border-radius: 2px;
+  margin: 0 2px;
+}
+
+.content pre > code {
+  margin-top: 16px;
+  border-radius: 8px;
 }
