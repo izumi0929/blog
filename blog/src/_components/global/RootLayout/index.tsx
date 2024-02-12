@@ -2,7 +2,6 @@ import { Noto_Sans_JP } from "next/font/google"
 import React from "react"
 
 const font = Noto_Sans_JP({
-  weight: "500",
   subsets: ["latin"]
 })
 
