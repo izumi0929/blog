@@ -10,8 +10,10 @@ type Props = {
 export const ArticlesPage: FC<Props> = ({ articles }) => {
   return (
     <main className={styles.main}>
-      <h1>記事一覧</h1>
-      <ArticleList articles={articles} />
+      <div className={styles.content}>
+        <h1>記事一覧</h1>
+        <ArticleList articles={articles} />
+      </div>
     </main>
   )
 }

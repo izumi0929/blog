@@ -1,13 +1,12 @@
 .ul {
   display: grid;
   list-style: none;
-  flex-wrap: wrap;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   max-width: 480px;
   gap: 32px;
   width: 100%;
   @include mq(lg) {
-    grid-template-columns: 1fr 1fr;
-    max-width: 880px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 680px;
   }
 }
