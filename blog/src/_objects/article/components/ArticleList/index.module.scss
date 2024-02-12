@@ -1,8 +1,13 @@
 .ul {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   list-style: none;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr;
+  max-width: 480px;
   gap: 32px;
   width: 100%;
-  max-width: 680px;
+  @include mq(lg) {
+    grid-template-columns: 1fr 1fr;
+    max-width: 880px;
+  }
 }

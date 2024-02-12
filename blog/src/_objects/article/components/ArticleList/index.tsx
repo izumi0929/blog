@@ -14,7 +14,11 @@ export const ArticleList: FC<Props> = ({ articles }) => {
       {articles.map((article) => (
         <li key={article.title}>
           <Link href={`articles/${article.slug}`}>
-            <Media {...article} />
+            <Media
+              title={article.title}
+              thumbnail={article.thumbnail}
+              date={article.date}
+            />
           </Link>
         </li>
       ))}

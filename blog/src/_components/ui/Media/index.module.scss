@@ -1,6 +1,5 @@
 .wrapper {
   display: flex;
-  align-items: center;
   border-radius: 8px;
   background-color: $cream-200;
 }
@@ -22,11 +21,11 @@
   flex-direction: column;
   gap: 8px;
   color: $neutral-900;
-  padding: 0 16px;
+  padding: 16px;
 }
 
 .title {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 1.5;
   color: $neutral-900;
