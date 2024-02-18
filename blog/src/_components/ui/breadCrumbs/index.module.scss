@@ -1,0 +1,21 @@
+.breadCrumbs > ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+.breadCrumbs a {
+  font-size: 14px;
+  color: $blue-800;
+  border-bottom: 1px solid $blue-800;
+}
+
+.breadCrumbs > ul > li {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}

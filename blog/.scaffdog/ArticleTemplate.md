@@ -27,10 +27,4 @@ thumbnail: "https://picsum.photos/id/{{date("MDD")}}/1200"
 ## 気づき
 
 ## 行動
-
-## 自分のストーリー
-
-## 根拠
-
-## 展開
 ```
