@@ -51,7 +51,7 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 1.5;
-  margin-top: 24px;
+  margin-top: 40px;
 }
 
 .content p {
@@ -77,4 +77,10 @@
 .content pre > code {
   margin-top: 16px;
   border-radius: 8px;
+}
+
+.content a {
+  color: $blue-800;
+  border-bottom: 1px solid $blue-800;
+  padding: 0 2px;
 }

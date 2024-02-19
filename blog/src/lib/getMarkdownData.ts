@@ -8,7 +8,9 @@ import { Article } from "@/_objects/article/types/Article"
 
 export async function getMarkdownData(slug: string): Promise<Article> {
   const articlesDirectory = getArticlesDirectory()
-  const fullPath = path.join(articlesDirectory, `${slug}.md`)
+  // slugが日本語の場合エンコードされてるのでデコードする
+  const decodedSlug = decodeURIComponent(slug)
+  const fullPath = path.join(articlesDirectory, `${decodedSlug}.md`)
   const fileContents = fs.readFileSync(fullPath, "utf8")
   const matterResult = matter(fileContents)
 
